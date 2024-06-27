@@ -1,0 +1,139 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c2c9eb;
+}
+
+p {
+    color: #f7f7f7;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #e2890b;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+header {
+    background-color: #c2c9eb;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+nav ul li a:hover {
+    color: #96c0eb;
+}
+
+main {
+    background-color: #b2ceea;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #979db9;
+    color: #96a6eb;
+    bottom: 0;
+    width: 100%;
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #a296eb;
+}
+
+.personal img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.personal img.right {
+    order: 2;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.personal img.left {
+    margin-right: 20px;
+}
+
+.personal div {
+    flex: 1;
+}
+
+.personal p {
+    margin: 0;
+}
+
+.hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #a296eb;
+}
+
+.hobby img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.hobby img.right {
+    order: 2;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.hobby div {
+    flex: 1;
+}
+
+.hobby p {
+    margin: 0;
+}
+
+h2 {
+    color: #030303;
+}
+
+header, nav, main, footer {
+    background-color: #3e4875;
+    border: 1px solid #ffffff;
+}
